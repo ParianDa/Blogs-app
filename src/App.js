@@ -38,7 +38,7 @@ function MainApp() {
   // Add blog to the loading blog
   function addBlog(newBlog) {
     addNewBlog(newBlog) //function to send new blog to backend api
-    setShouldLoadBlogs(true)
+    setShouldLoadBlogs(false)
     navigate('/blogs');
   }
 
